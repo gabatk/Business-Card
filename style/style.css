@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    margin-right:15%;
+    margin-left: 15%;
+    border:2px double rgb(109, 113, 131);
+    box-shadow: 10px 7px 5px rgba(105, 110, 133, 0.5);
+}
+
+.header{
+    background-color: rgb(1, 189, 247);
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+}
+
+.general-info {
+    margin-left: 20px;
+
+}
+
+.header-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    font-size: 15px;
+    width: 450px;
+}
+
+.description span{
+    color: rgb(6, 150, 247);
+}
+
+.chart-image{
+    width: 40%;
+    height: 40%;
+    margin-right: 50px;
+}
+
+.telegram{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linkedin{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.github{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
