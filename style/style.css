@@ -1,9 +1,17 @@
+html,
+body{
+    /* margin:0; */
+	padding:0;
+  
+}
 body{
     font-family: sans-serif;
     margin-right:15%;
     margin-left: 15%;
     border:2px double rgb(109, 113, 131);
     box-shadow: 10px 7px 5px rgba(105, 110, 133, 0.5);
+    margin-top: 1%;
+
 }
 
 .header{
@@ -40,6 +48,7 @@ body{
 .description{
     font-size: 15px;
     width: 450px;
+    /* height: 420px; */
 }
 
 .description span{
@@ -50,6 +59,7 @@ body{
     width: 40%;
     height: 40%;
     margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 .telegram{
@@ -71,4 +81,21 @@ body{
     width: 50px;
     height: 50px;
     margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: ' ★ ';
+}
+
+footer{
+    text-align: end;
+}
+footer input{
+    width: 80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 5px;
+    font-weight: 700;
+    background-color: rgb(4, 155, 201);
+
 }
